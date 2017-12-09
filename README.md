@@ -3,6 +3,7 @@
  
  Here is a depiction of a maze that the Monster Maze project could model:
  
+ ![depictionImage](https://github.com/NatkhatShinChan/MonsterMaze/blob/master/src/ui/SimpleRooms.png)
  
  In this maze, each room has the following options:
 
