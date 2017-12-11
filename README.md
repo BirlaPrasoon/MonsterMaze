@@ -11,3 +11,6 @@
 * Room 2: Can fight a monster to (hopefully) win the treasure!
 * Room 3: Can fight a monster, or can travel to room 4
 * Room 4: Can claim the treasure!
+
+# Monster Maze UML 
+![MonsterMazeUML](https://github.com/BirlaPrasoon/MonsterMaze/blob/master/MonsterMaze%20UML.JPG)
