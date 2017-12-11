@@ -3,25 +3,19 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Room {
+public class Room extends Module{
 
     private List<Monster> monsters;
     private List<Treasure> treasures;
     private List<Room> rooms;
     private int id;
-    private String optionMessage;
 
     public Room(int id) {
-        optionMessage = "Enter Room " + id + ".";
+        super( "Enter Room " + id + ".");
         this.id = id;
         monsters = new ArrayList<>();
         treasures = new ArrayList<>();
         rooms = new ArrayList<>();
-    }
-
-    //EFFECTS: prints a message representing this possible next choice
-    public void printOptionMessage() {
-        System.out.println(optionMessage);
     }
 
     //EFFECTS: prints all possible next choices

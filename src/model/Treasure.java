@@ -1,18 +1,15 @@
 package model;
 
-public class Treasure {
+import com.sun.org.apache.xpath.internal.operations.Mod;
+
+public class Treasure extends Module{
 
     private int prize;
     private String optionMessage;
 
     public Treasure(int prize) {
-        this.optionMessage = "Claim your treasure!";
+        super("Claim your treasure!");
         this.prize = prize;
-    }
-
-    //EFFECTS: prints a message representing this possible next choice
-    public void printOptionMessage() {
-        System.out.println(optionMessage);
     }
 
     //EFFECTS: prints the result of choosing this choice

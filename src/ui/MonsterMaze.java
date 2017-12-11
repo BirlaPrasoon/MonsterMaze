@@ -26,14 +26,14 @@ public class MonsterMaze {
         r1.addRoom(r4);
         r1.addMonster(m1);
 
+        r4.addRoom(r3);
+        r4.addRoom(r5);
         r2.addRoom(r3);
         r2.addRoom(r6);
 
         r3.addRoom(r4);
         r3.addMonster(m3);
 
-        r4.addRoom(r3);
-        r4.addRoom(r5);
 
         r5.addMonster(m2);
 
